@@ -14,7 +14,18 @@ function Hero() {
               <span>I create beautiful things <br/>on the web</span>
 
               {/* lower element */}
-          <div className={`${css.lowerElement}`}></div>
+          <div className={`${css.lowerElement}`}>
+            <div className={css.experience}>
+
+              <div className="primaryText">10</div>
+              <div className='secondaryText'>
+
+                <div>Years</div>
+                <div>Experience</div>
+              </div>
+            </div>
+            <div className={css.certificate}></div>
+          </div>
 
       </div>
     </section>
