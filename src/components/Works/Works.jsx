@@ -2,8 +2,8 @@ import React from "react";
 import { workExp } from "../../utils/data";
 import css from "./Works.module.scss";
 import {motion} from 'framer-motion'
-import { draw, fadeIn, slideIn, staggerChildren, textVariant2, zoomIn } from "../../utils/motion";
-const Work = () => {
+import {  fadeIn, slideIn, staggerChildren, textVariant2, zoomIn } from "../../utils/motion";
+const Works = () => {
   return (
     <motion.section 
     variants={staggerChildren}
@@ -47,4 +47,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Works;
