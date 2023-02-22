@@ -4,6 +4,7 @@ import Hero from './components/Hero/Hero'
 import Expertise from './components/Experties/Expertise'
 import Works from './components/Works/Works'
 import css from "./styles/app.module.scss"
+import Projects from './components/Projects/Projects'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero/>
       <Expertise/>
       <Works/>
+      <Projects/>
     </div> 
   )
 }
