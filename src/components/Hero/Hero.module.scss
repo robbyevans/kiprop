@@ -1,0 +1,69 @@
+@import '../../styles/constants.scss';
+
+.wrapper{
+  overflow: hidden;
+
+  .container{
+    position: relative;
+    z-index: 1;
+
+  }
+  .upperElement{
+
+    @media (max-width: $sm){
+      justify-content: center;
+      text-align: center;
+      gap: 2rem;
+      justify-content: center;
+
+    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+  .lowerElement{
+    margin-top: 12rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+      .experience{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        >:nth-child(2){
+          line-height: 25px;
+        }
+      }
+      .certificate{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img{
+          margin-bottom: 1rem;
+          width: 3.5rem;
+        }
+      }
+  }
+  .person{
+    position: absolute;
+    bottom: -2rem;
+    margin: auto;
+    background-image: url('../splash.png');
+    background-repeat:no-repeat;
+    background-size: 23rem;
+    left: 33%;
+  
+  } 
+  .email{
+    position:absolute;
+    top: 50%;
+    left: 0%;
+    color: #ebb41b;
+  }
+
+}
+
