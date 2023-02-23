@@ -59,7 +59,7 @@ function Hero() {
             <motion.div
             variants={fadeIn("left","tween",0.2,1)}
              className={css.certificate}>
-              <img src='./' alt=""
+              <img src='./certificate.jpg' alt=""
               />
               {/* <span className="icon">{GrCertificate}</span> */}
               <span>CERTIFIED</span>

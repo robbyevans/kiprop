@@ -1,6 +1,7 @@
 import React from 'react'
 import { projectExperience, WhatDoIHelp } from '../../utils/data'
 import css from './Expertise.module.scss'
+import { FaReact } from "react-icons/fa";
 import {motion} from 'framer-motion'
 import {fadeIn, staggerContainer, textVariant} from '../../utils/motion.js'
 const Experties = () => {
@@ -26,7 +27,9 @@ const Experties = () => {
                             </div>
                             <div>
                                 <span>{exp.name}</span>
-                                <span className='secondaryText'>{exp.projects} Projects</span>
+                                <span className='secondaryText'> Stacks:
+                                {/* <img className='icon' src={exp.icon1} /> */}
+                                </span>
                             </div>
                             
                         </motion.div>

@@ -1,22 +1,25 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
+import { FaReact } from "react-icons/fa";
 import { CiMobile1 } from "react-icons/ci";
-import { MdWorkspacesOutline } from "react-icons/md";
+import { MdSportsRugby, MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
     name: "Website Design",
-    projects: 76,
+    stack: FaReact,
     icon: HiOutlineDesktopComputer,
+    icon1:'./react.svg',
+    icon2:'./ruby.svg',
     bg: "#286F6C",
   },
   {
     name: "Mobile App Design",
-    projects: 63,
+    stacks: 63,
     icon: CiMobile1,
     bg: "#EEC048",
   },
   {
-    name: "Brand Identity",
-    projects: 47,
+    name: "Design",
+    stack: 47,
     icon: MdWorkspacesOutline,
     bg: "#F26440",
   },
