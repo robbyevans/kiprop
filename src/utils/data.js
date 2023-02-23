@@ -52,18 +52,18 @@ export const WhatDoIHelp = [
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "Freelancer, Nairobi",
+    tenure: "Jan 2022 - Present",
+    role: "Software Developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Building front-end web applications with React and back-end server applications with Ruby on Rails.",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "Keevadis Agency, Eldoret",
+    tenure: "Aug 2021 - Dec 2021",
+    role: " Software Developer intern",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Building property management system with React front end and Ruby on rails for backend development.",
   },
   {
     place: "Global Solution",
