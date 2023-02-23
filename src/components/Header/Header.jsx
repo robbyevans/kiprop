@@ -1,16 +1,24 @@
-import React ,{useState}from 'react'
+import React ,{useState,useRef}from 'react'
 import css from "./Header.module.scss"
 import {BiMenuAltRight, BiPhoneCall} from 'react-icons/bi'
 import {motion} from 'framer-motion'
 import {headerVariants,getMenuStyles} from '../../utils/motion'
+import useOutsideAlerter from "../../hooks/useOutsideAlerter";
 import useHeaderShadow from '../../hooks/useHeaderShadow'
 
 
 
 function Header() {
 
+  const menuRef = useRef(null);
   const[menuOpened,setMenuOpened]=useState(false);
   const headerShadow = useHeaderShadow()
+
+    //to handle click outside of sidebar on mobile
+    useOutsideAlerter({
+      menuRef,
+      setMenuOpened,
+    });
 
   return (
 
@@ -27,12 +35,13 @@ function Header() {
         </div>
 
         <ul
+          ref={menuRef}
           style={getMenuStyles(menuOpened)}
            className={`flexCenter ${css.menu}`}>
-          <li><a href="">Services</a></li>
-          <li><a href="">Experience</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Testimonials</a></li>
+          <li><a href="#experties">Services</a></li>
+          <li><a href="#works">Experience</a></li>
+          <li><a href="#projects">Portfolio</a></li>
+          <li><a href="#comments">Testimonials</a></li>
           <li className={`flexCenter ${css.phone}`}>
             <p>+254720563260</p>
             <BiPhoneCall size={"40px"}/>

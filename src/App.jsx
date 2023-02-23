@@ -5,6 +5,8 @@ import Expertise from './components/Experties/Expertise'
 import Works from './components/Works/Works'
 import css from "./styles/app.module.scss"
 import Projects from './components/Projects/Projects'
+import Comments from './components/Comments/Comments'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Expertise/>
       <Works/>
       <Projects/>
+      <Comments/>
+      <Footer/>
     </div> 
   )
 }
