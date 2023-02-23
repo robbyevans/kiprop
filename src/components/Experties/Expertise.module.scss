@@ -26,13 +26,18 @@
         padding: 1.5rem;
         transition: all 200ms ease-out;
         gap:2rem;
-        img{
-          // color: #61DAFB;
-          height: 25px;
-          width: 25px;
-          
 
+        .icon{
+        
+          margin-bottom: -5px;
+          margin-left:10px;
+          // border: 1px solid red;
+          border-radius: 100%;
+          padding: -15px;
+          box-shadow: 0px 21px 13px rgba(0,0,0,0.14);
+          
         }
+        
         &:hover{
           cursor: pointer;
           box-shadow: 0px 21px 13px rgba(0,0,0,0.04);
@@ -59,6 +64,7 @@
 
         
       }
+      
     
     }
     .rightSide {

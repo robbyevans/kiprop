@@ -4,6 +4,7 @@ import css from './Expertise.module.scss'
 import { FaReact } from "react-icons/fa";
 import {motion} from 'framer-motion'
 import {fadeIn, staggerContainer, textVariant} from '../../utils/motion.js'
+import { SiStackshare } from 'react-icons/si';
 const Experties = () => {
   return (
     <section 
@@ -28,7 +29,11 @@ const Experties = () => {
                             <div>
                                 <span>{exp.name}</span>
                                 <span className='secondaryText'> Stacks:
-                                {/* <img className='icon' src={exp.icon1} /> */}
+                                {
+                                    (exp.stacks).map(function(icons){
+                                        return<icons.icon className={css.icon} size={30} color={icons.color}/>
+                                    })
+                                }
                                 </span>
                             </div>
                             
@@ -43,17 +48,17 @@ const Experties = () => {
             variants={textVariant(0.5)}
             className={css.rightSide}>
 
-                <span className='primaryText'>What do I help? </span>
+                <span className='primaryText'>What i do? </span>
                 {WhatDoIHelp.map((paragraph, i)=> <span className='secondaryText' key={i}>{paragraph}</span>)}
 
 
                 <div className={`flexCenter ${css.stats}`}>
                     <div className={`flexCenter ${css.stat}`}>
-                        <span className='primaryText'>285+</span>
+                        <span className={`primaryText ${css.orange}`}>25+</span>
                         <span className='secondaryText'>Project Completed</span>
                     </div>
                     <div className={`flexCenter ${css.stat}`}>
-                        <span className='primaryText'>190+</span>
+                        <span className={`primaryText ${css.orange}`}>30+</span>
                         <span className='secondaryText'>Happy Clients</span>
                     </div>
                 </div>

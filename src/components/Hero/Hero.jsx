@@ -19,7 +19,7 @@ function Hero() {
 
               <motion.span
               variants={fadeIn("right","tween",0.2,1)}
-              className='primaryText'>Hey There,<br/>I`m <span className='orange' >Kiprop</span>.
+              className='primaryText'>Hey There,<br/>I`m <span className={css.orange} >Evans</span>.
               </motion.span>
               <motion.span
                variants={fadeIn("left","tween",0.2,1)}
@@ -59,7 +59,7 @@ function Hero() {
             <motion.div
             variants={fadeIn("left","tween",0.2,1)}
              className={css.certificate}>
-              <img src='./certificate.jpg' alt=""
+              <img src='./certificate.png' alt=""
               />
               {/* <span className="icon">{GrCertificate}</span> */}
               <span>CERTIFIED</span>

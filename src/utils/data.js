@@ -1,33 +1,53 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
-import { FaReact } from "react-icons/fa";
+import { DiReact,DiHtml5,DiCss3} from "react-icons/di";
+import { SiJavascript,SiRuby,SiPostgresql,SiAdobephotoshop,SiAdobexd,SiAdobeillustrator} from "react-icons/si";
+import { TbBrandReactNative } from "react-icons/tb";
+import { FaReact,FaNodeJs,FaGitAlt, } from "react-icons/fa";
+import { CgFigma } from "react-icons/cg";
+
 import { CiMobile1 } from "react-icons/ci";
-import { MdSportsRugby, MdWorkspacesOutline } from "react-icons/md";
+import {  MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
     name: "Website Design",
-    stack: FaReact,
     icon: HiOutlineDesktopComputer,
-    icon1:'./react.svg',
-    icon2:'./ruby.svg',
     bg: "#286F6C",
+    stacks:[
+      {icon:FaReact,color:"#61DAFB"},
+      {icon:DiHtml5,color:"#E34F26"},
+      {icon:DiCss3,color:"#1572B6"},
+      {icon:SiJavascript,color:"#F7DF1E"},
+      {icon:SiRuby,color:"#CC342D"},
+      // {icon:FaGitAlt,color:"#F05032"}
+    ],
+    
   },
   {
     name: "Mobile App Design",
     stacks: 63,
     icon: CiMobile1,
     bg: "#EEC048",
+    stacks:[
+      {icon:TbBrandReactNative,color:"#B7178C"},
+    ],
+    
   },
   {
     name: "Design",
     stack: 47,
     icon: MdWorkspacesOutline,
     bg: "#F26440",
+    stacks:[
+      {icon:SiAdobephotoshop,color:"#31A8FF"},
+      {icon:SiAdobexd,color:"#FF61F6"},
+      {icon:SiAdobeillustrator,color:"#FF9A00"},
+      {icon:CgFigma,color:"#F24E1E"},
+    ],
   },
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
+  "Are you looking for a talented and reliable web developer to bring your ideas to life? Look no further! I specialize in creating beautiful and functional websites and web applications that will make your business stand out from the crowd. Whether you're looking for a sleek and modern portfolio website, an online store to boost your sales, or a complex full-stack application, I have the skills and expertise to deliver results that exceed your expectations. Don't let your ideas remain just ideas - reach out to me today, and let's work together to turn them into reality!",
 ];
 
 export const workExp = [
