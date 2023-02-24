@@ -32,7 +32,7 @@ const Projects = () => {
              alt="project" />
 
             <motion.img variants={fadeIn("up", "tween", .7, .6)}
-             src="./showCase2.png"
+             src="./viewIT.png"
               alt="project" />
 
             
