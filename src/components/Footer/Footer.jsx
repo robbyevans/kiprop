@@ -18,23 +18,24 @@ const Footer = () => {
         <div className={css.left}>
           <span className="primaryText">
             Let's make something <br />
-            amazing together.
+            happen  ....
           </span>
+           
           <span className="primaryText">
-            Start by <a href="mailto:zainkeepscode@gmail.com">saying hi</a>
+           <a href="mailto:ruttoevans001@gmail.com">say hi</a>
           </span>
         </div>
 
         <div className={css.right}>
           <div className={css.info}>
             <span className="secondaryText">Information</span>
-            <p>145 New York, FL 5467, USA</p>
+            <p>7528 Eldoret, KENYA</p>
           </div>
           <ul className={css.menu}>
-            <li>Services</li>
-            <li>Works</li>
-            <li>Notes</li>
-            <li>Experience</li>
+            <li><a href="#experties">Services</a></li>
+            <li><a href="#projects">Works</a></li>
+            <li><a href="#">Notes</a></li>
+            <li><a href="#works">Experience</a></li>
           </ul>
         </div>
       </motion.div>

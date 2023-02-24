@@ -43,12 +43,15 @@
                 flex-direction: column;
                 gap: 2rem;
                 list-style: none;
-                li{
+                li a{
+                    text-decoration: none;
                     cursor: pointer;
+                    color: $primary;
                     &:hover{
                         color: $secondary
                     }
                 }
+                
             }
         }
     }
