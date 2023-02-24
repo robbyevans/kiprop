@@ -23,8 +23,6 @@ const Projects = () => {
           </div>
           <span className="secondaryText">Explore More Works</span>
         </motion.div>
-
-
         <div className={`flexCenter ${css.showCase}`}>
 
             <motion.img variants={fadeIn("up", "tween", .5, .6)}
@@ -43,9 +41,7 @@ const Projects = () => {
                   
                 }}
                 
-                />
-            
-              
+                />      
         </div>
       </div>
     </motion.section>
