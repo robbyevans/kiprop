@@ -18,7 +18,7 @@ const Projects = () => {
 
         <motion.div variants={textVariant(.4)} className={`flexCenter ${css.heading}`}>
           <div>
-            <span className="primaryText">My Latest Works</span>
+            <span className="primaryText">Recent Projects</span>
             <p style={{marginTop: "10px"}}>Perfect solution for digital experience</p>
           </div>
           <span className="secondaryText">Explore More Works</span>
@@ -35,9 +35,16 @@ const Projects = () => {
              src="./showCase2.png"
               alt="project" />
 
-            <motion.img variants={fadeIn("up", "tween", .9, .6)}
-             src="./showCase3.png"
-              alt="project" />
+            
+              <motion.img variants={fadeIn("up", "tween", .9, .6)}
+               src="./localshop.png"
+                alt="project"
+                onClick={function(){
+                  
+                }}
+                
+                />
+            
               
         </div>
       </div>
