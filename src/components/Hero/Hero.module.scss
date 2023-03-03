@@ -1,100 +1,87 @@
-@import '../../styles/constants.scss';
+@import "../../styles/constants.scss";
 
-.wrapper{
+.wrapper {
   overflow: hidden;
 
-  .container{
+  .container {
     position: relative;
     z-index: 1;
-
   }
-  .upperElement{
-    
-    
-    @media (max-width: $sm){
+  .upperElement {
+    @media (max-width: $sm) {
       justify-content: center;
       text-align: center;
       gap: 2rem;
       justify-content: center;
-
     }
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-   
   }
-  .lowerElement{
+  .lowerElement {
     margin-top: 12rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
-      .experience{
-       
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-        >:nth-child(1){
-          color: #ff0000;
-        }
-        >:nth-child(2){
-          line-height: 25px;
-        }
+    .experience {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      > :nth-child(1) {
+        color: #ff0000;
       }
-      .certificate{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+      > :nth-child(2) {
+        line-height: 25px;
+      }
+    }
+    .certificate {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
-        img{
-          margin-bottom: 1rem;
-          width: 3.5rem;
-         
-        }
+      img {
+        margin-bottom: 1rem;
+        width: 3.5rem;
       }
+    }
   }
-  .person{
-
-    @media (max-width:$sm),(max-width:$md){
+  .person {
+    @media (max-width: $sm), (max-width: $md) {
       position: relative;
       left: 0;
-      background-size:20rem ;
+      background-size: 20rem;
       display: flex;
       align-items: center;
       justify-content: center;
       background-position: bottom;
-
     }
     position: absolute;
     bottom: -2rem;
     margin: auto;
     // background-image: url('../splash.png');
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: 23rem;
     left: 33%;
-    
-    img{
-      @media (max-width:$sm){
+
+    img {
+      @media (max-width: $sm) {
         width: 23rem;
       }
       margin-bottom: 50px;
       height: 434px;
       width: 434px;
     }
-  
-  } 
-  .email{
-    @media(max-width:$sm){
+  }
+  .email {
+    @media (max-width: $sm) {
       position: relative;
       display: none;
     }
-    position:absolute;
+    position: absolute;
     top: 50%;
     left: 0%;
     color: #ff0000;
   }
- 
-
 }
-

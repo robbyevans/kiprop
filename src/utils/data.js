@@ -1,47 +1,50 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
-import { DiReact,DiHtml5,DiCss3} from "react-icons/di";
-import { SiJavascript,SiRuby,SiPostgresql,SiAdobephotoshop,SiAdobexd,SiAdobeillustrator} from "react-icons/si";
+import { DiReact, DiHtml5, DiCss3 } from "react-icons/di";
+import {
+  SiJavascript,
+  SiRuby,
+  SiPostgresql,
+  SiAdobephotoshop,
+  SiAdobexd,
+  SiAdobeillustrator,
+} from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
-import { FaReact,FaNodeJs,FaGitAlt, } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaGitAlt } from "react-icons/fa";
 import { CgFigma } from "react-icons/cg";
 
 import { CiMobile1 } from "react-icons/ci";
-import {  MdWorkspacesOutline } from "react-icons/md";
+import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
     name: "Website Design",
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
-    stacks:[
-      {icon:FaReact,color:"#61DAFB"},
-      {icon:DiHtml5,color:"#E34F26"},
-      {icon:DiCss3,color:"#1572B6"},
-      {icon:SiJavascript,color:"#F7DF1E"},
-      {icon:SiRuby,color:"#CC342D"},
+    stacks: [
+      { icon: FaReact, color: "#61DAFB" },
+      { icon: DiHtml5, color: "#E34F26" },
+      { icon: DiCss3, color: "#1572B6" },
+      { icon: SiJavascript, color: "#F7DF1E" },
+      { icon: SiRuby, color: "#CC342D" },
       // {icon:FaGitAlt,color:"#F05032"}
     ],
-    
   },
   {
     name: "Mobile App Design",
     stacks: 63,
     icon: CiMobile1,
     bg: "#EEC048",
-    stacks:[
-      {icon:TbBrandReactNative,color:"#B7178C"},
-    ],
-    
+    stacks: [{ icon: TbBrandReactNative, color: "#B7178C" }],
   },
   {
     name: "Design",
     stack: 47,
     icon: MdWorkspacesOutline,
     bg: "#F26440",
-    stacks:[
-      {icon:SiAdobephotoshop,color:"#31A8FF"},
-      {icon:SiAdobexd,color:"#FF61F6"},
-      {icon:SiAdobeillustrator,color:"#FF9A00"},
-      {icon:CgFigma,color:"#F24E1E"},
+    stacks: [
+      { icon: SiAdobephotoshop, color: "#31A8FF" },
+      { icon: SiAdobexd, color: "#FF61F6" },
+      { icon: SiAdobeillustrator, color: "#FF9A00" },
+      { icon: CgFigma, color: "#F24E1E" },
     ],
   },
 ];

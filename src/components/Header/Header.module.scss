@@ -1,7 +1,6 @@
-@import '../../styles/constants.scss';
+@import "../../styles/constants.scss";
 
-.wrapper{
-
+.wrapper {
   position: relative;
   z-index: 99;
   opacity: 1;
@@ -10,19 +9,18 @@
   top: 0;
   transition: all 300ms ease;
 
-  .container{
+  .container {
     position: relative;
     justify-content: space-between;
     font-weight: 500;
 
-    .name{
+    .name {
       font-size: 1.5rem;
       font-weight: 500;
       color: #ff0000;
     }
-    .menu{
-
-      @media(max-width:$sm),(max-width: $md){
+    .menu {
+      @media (max-width: $sm), (max-width: $md) {
         position: absolute;
         list-style: none;
         gap: 2rem;
@@ -41,8 +39,7 @@
         align-items: flex-start;
         padding: 3rem;
         justify-content: flex-end;
-        box-shadow: 0px 4px 4px rgba(0,0,0,0.05);
-        
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
       }
       text-transform: uppercase;
       font-size: 1rem;
@@ -50,36 +47,34 @@
       gap: 1.5rem;
       cursor: pointer;
 
-     li{
-      a{
-        text-decoration: none;
-        color: inherit;
+      li {
+        a {
+          text-decoration: none;
+          color: inherit;
+        }
+        &:hover {
+          color: $secondary;
+        }
       }
-      &:hover{
-        color: $secondary;
+      .phone {
+        gap: 1.2rem;
+        flex-wrap: wrap;
+
+        svg {
+          padding: 10px;
+          color: $secondary;
+          background-color: #fff;
+          border-radius: 999px;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+        }
       }
-     }
-     .phone{
-       gap: 1.2rem;
-       flex-wrap: wrap;
- 
-       svg{
-        padding: 10px;
-         color: $secondary;
-         background-color: #fff;
-         border-radius: 999px;
-         box-shadow: 0px 4px 4px rgba(0,0,0,0.05);
-       }
-     }
     }
     .menuIcon {
-
-      @media (max-width: $sm),
-      (max-width: $md) {
-          display: block;
+      @media (max-width: $sm), (max-width: $md) {
+        display: block;
       }
 
       display: none;
-  } 
+    }
   }
 }

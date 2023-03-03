@@ -1,45 +1,42 @@
-@import '../../styles/constants.scss';
+@import "../../styles/constants.scss";
 
-.wrapper{
+.wrapper {
   background: #fff;
   overflow: hidden;
 
-  .container{
+  .container {
     flex-direction: column;
     gap: 2rem;
-    .heading{
+    .heading {
       width: 100%;
       justify-content: space-between;
       align-items: flex-end;
       flex-wrap: wrap;
-      >:nth-child(2)
-      {
+      > :nth-child(2) {
         text-decoration: underline;
         color: #ff0000;
         cursor: pointer;
       }
     }
-    .showCase{
+    .showCase {
       width: 100%;
       gap: 1.5rem;
       justify-content: space-around;
       flex-wrap: wrap;
-      >a{
-        >img{
-  
-          @media(max-width:$sm){
+      > a {
+        > img {
+          @media (max-width: $sm) {
             width: 100%;
           }
           border-radius: 20px;
           max-width: 25rem;
           max-height: 18rem;
-          box-shadow: 0px 21px 13px rgba(0,0,0,13%);
+          box-shadow: 0px 21px 13px rgba(0, 0, 0, 13%);
           cursor: pointer;
         }
         // height: 500px;
         // width: 500px;
       }
-
     }
   }
 }
