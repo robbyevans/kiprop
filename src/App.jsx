@@ -1,25 +1,25 @@
-import React from 'react'
-import Header from './components/Header/Header'
-import Hero from './components/Hero/Hero'
-import Expertise from './components/Experties/Expertise'
-import Works from './components/Works/Works'
-import css from "./styles/app.module.scss"
-import Projects from './components/Projects/Projects'
-import Comments from './components/Comments/Comments'
-import Footer from './components/Footer/Footer'
+import React from "react";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import Expertise from "./components/Experties/Expertise";
+import Works from "./components/Works/Works";
+import css from "./styles/app.module.scss";
+import Projects from "./components/Projects/Projects";
+import Comments from "./components/Comments/Comments";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div className={`bg-primary ${css.container}`}>
-      <Header/>
-      <Hero/>
-      <Expertise/>
-      <Works/>
-      <Projects/>
-      <Comments/>
-      <Footer/>
-    </div> 
-  )
+      <Header />
+      <Hero />
+      <Expertise />
+      <Works />
+      <Projects />
+      <Comments />
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
