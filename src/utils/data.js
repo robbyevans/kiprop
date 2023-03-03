@@ -50,30 +50,30 @@ export const projectExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "Are you looking for a talented and reliable web developer to bring your ideas to life? Look no further! I specialize in creating beautiful and functional websites and web applications that will make your business stand out from the crowd. Whether you're looking for a sleek and modern portfolio website, an online store to boost your sales, or a complex full-stack application, I have the skills and expertise to deliver results that exceed your expectations. Don't let your ideas remain just ideas - reach out to me today, and let's work together to turn them into reality!",
+  "I specialize in creating beautiful and functional websites and web applications that will make your business stand out from the crowd. Whether you're looking for a sleek and modern portfolio website, an online store to boost your sales, or a complex full-stack application, I have the skills and expertise to deliver results that exceed your expectations. Don't let your ideas remain just ideas - reach out to me today, and let's work together to turn them into reality!",
 ];
 
 export const workExp = [
   {
     place: "Freelancer, Nairobi",
-    tenure: "Jan 2022 - Present",
+    tenure: "June 2022 - Present",
     role: "Software Developer",
     detail:
       "Building front-end web applications with React and back-end server applications with Ruby on Rails.",
   },
   {
-    place: "Keevadis Agency, Eldoret",
+    place: "Iskru Logistics",
+    tenure: "Dec 2021 - June 2022",
+    role: "React js and RoR Developer",
+    detail:
+      "Building  company website and Inventory management software using React js and Ruby on Rail",
+  },
+  {
+    place: "Keevadis Agency",
     tenure: "Aug 2021 - Dec 2021",
     role: " Software Developer intern",
     detail:
-      "Building property management system with React front end and Ruby on rails for backend development.",
-  },
-  {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Building Real Estate Website with ReactJs and Saas.",
   },
 ];
 
