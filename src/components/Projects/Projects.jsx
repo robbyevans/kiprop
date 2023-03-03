@@ -25,23 +25,28 @@ const Projects = () => {
         </motion.div>
         <div className={`flexCenter ${css.showCase}`}>
 
-            <motion.img variants={fadeIn("up", "tween", .5, .6)}
-             src="./showCase1.png" 
-             alt="project" />
+        <a href="https://rickmorty.pages.dev/">
+              <motion.img variants={fadeIn("up", "tween", .5, .6)}
+               src="./00015.jpg"
+               alt="project" />
+            </a>
 
-            <motion.img variants={fadeIn("up", "tween", .7, .6)}
-             src="./viewIT.png"
-              alt="project" />
+            <a href="https://sil-gallery-app.herokuapp.com/">
+              <motion.img variants={fadeIn("up", "tween", .7, .6)}
+               src="./viewIT.png"
+                alt="project" />
+            </a>
 
             
-              <motion.img variants={fadeIn("up", "tween", .9, .6)}
-               src="./localshop.png"
-                alt="project"
-                onClick={function(){
-                  
-                }}
-                
-                />      
+              
+               <a href="https://local-shop.herokuapp.com/mlog-in">
+                    <motion.img variants={fadeIn("up", "tween", .9, .6)}
+                     src="./localshop.png"
+                      alt="project"
+                 
+                      />
+                 
+               </a>
         </div>
       </div>
     </motion.section>
