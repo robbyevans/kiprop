@@ -37,7 +37,7 @@ function Hero() {
         <div className={css.person}>
           <motion.img
             variants={slideIn("up", "tween", 0.5, 1.3)}
-            src="./Saly-13@2x.png"
+            src="./smilyface.png"
             alt=""
           />
         </div>
