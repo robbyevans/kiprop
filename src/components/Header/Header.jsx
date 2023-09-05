@@ -6,12 +6,41 @@ import { headerVariants, getMenuStyles } from "../../utils/motion";
 import useOutsideAlerter from "../../hooks/useOutsideAlerter";
 import useHeaderShadow from "../../hooks/useHeaderShadow";
 
+function MenuItems() {
+  return (
+    <>
+      <li>
+        <a href="#experties">Services</a>
+      </li>
+      <li>
+        <a href="#works">Experience</a>
+      </li>
+      <li>
+        <a href="#projects">Portfolio</a>
+      </li>
+      <li>
+        <a href="#comments">Testimonials</a>
+      </li>
+      <Contact />
+    </>
+  );
+}
+
+function Contact() {
+  return (
+    <li className={`flexCenter ${css.phone}`}>
+      <p>+254720563260</p>
+      <BiPhoneCall size={"40px"} />
+    </li>
+  );
+}
+
 function Header() {
   const menuRef = useRef(null);
-  const [menuOpened, setMenuOpened] = useState(false);
+  const [menuOpened, setMenuOpened] = useState(true);
   const headerShadow = useHeaderShadow();
 
-  //to handle click outside of sidebar on mobile
+  // Handle click outside of sidebar on mobile
   useOutsideAlerter({
     menuRef,
     setMenuOpened,
@@ -34,27 +63,14 @@ function Header() {
           style={getMenuStyles(menuOpened)}
           className={`flexCenter ${css.menu}`}
         >
-          <li>
-            <a href="#experties">Services</a>
-          </li>
-          <li>
-            <a href="#works">Experience</a>
-          </li>
-          <li>
-            <a href="#projects">Portfolio</a>
-          </li>
-          <li>
-            <a href="#comments">Testimonials</a>
-          </li>
-          <li className={`flexCenter ${css.phone}`}>
-            <p>+254720563260</p>
-            <BiPhoneCall size={"40px"} />
-          </li>
+          <MenuItems />
         </ul>
-        {/* only for medium and small screens */}
+
+        {/* Icon for medium and small screens */}
         <div
+          ref={menuRef}
           className={css.menuIcon}
-          onClick={() => setMenuOpened((prev) => !prev)}
+          onClick={() => setMenuOpened((prevMenuOpened) => !prevMenuOpened)}
         >
           <BiMenuAltRight size={30} />
         </div>
