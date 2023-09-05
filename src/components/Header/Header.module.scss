@@ -21,7 +21,6 @@
     }
     .menu {
       @media (max-width: $sm), (max-width: $md) {
-        border: 1px solid red;
         position: absolute;
         list-style: none;
         gap: 2rem;

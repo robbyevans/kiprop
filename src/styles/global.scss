@@ -3,6 +3,18 @@
 .bg-primary {
   background: #f8f7f1;
 }
+:root {
+  --primary-bg: #ffffff;
+  --primary-text: #333333;
+  /* ... other styles */
+}
+
+/* Dark mode */
+[data-theme='dark'] {
+  --primary-bg: #333333;
+  --primary-text: #ffffff;
+  /* ... other styles */
+}
 
 .innerWidth {
   @media (min-width: $xxl) {
