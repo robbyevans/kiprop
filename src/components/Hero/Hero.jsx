@@ -2,11 +2,11 @@ import React from "react";
 import css from "./Hero.module.scss";
 import { motion } from "framer-motion";
 import { staggerContainer, fadeIn, slideIn } from "../../utils/motion";
-import { GiShirtButton } from "react-icons/gi";
 
 function Hero() {
   return (
     <section className={`paddings ${css.wrapper}`}>
+      <a id="#home"></a>
       <motion.div
         className={`innerWidth ${css.container}`}
         variants={staggerContainer}
@@ -28,7 +28,7 @@ function Hero() {
             variants={fadeIn("left", "tween", 0.2, 1)}
             className="secondaryText"
           >
-            I create beautiful things <br />
+            I create awesome things <br />
             on the web
           </motion.span>
         </div>
@@ -42,13 +42,15 @@ function Hero() {
           />
         </div>
 
-        {/* email */}
+        {/* github */}
         <motion.a
           variants={fadeIn("right", "tween", 0.2, 1)}
-          href="mailto:ruttoevans001@gmail.com"
-          className={css.email}
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/robbyevans"
+          className={css.github}
         >
-          ruttoevans001@gmail
+          <img src="./github.svg" alt="" />
         </motion.a>
 
         {/* lower element */}
@@ -63,12 +65,12 @@ function Hero() {
               <div>Experience</div>
             </div>
           </motion.div>
+
           <motion.div
             variants={fadeIn("left", "tween", 0.2, 1)}
             className={css.certificate}
           >
             <img src="./certificate.png" alt="" />
-            {/* <span className="icon">{GrCertificate}</span> */}
             <span>CERTIFIED</span>
             <span>SOFTWARE DEVELOPER</span>
           </motion.div>

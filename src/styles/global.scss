@@ -3,6 +3,7 @@
 .bg-primary {
   background: #f8f7f1;
 }
+// to be used when implementing the light and dark modes
 :root {
   --primary-bg: #ffffff;
   --primary-text: #333333;
@@ -10,7 +11,7 @@
 }
 
 /* Dark mode */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --primary-bg: #333333;
   --primary-text: #ffffff;
   /* ... other styles */

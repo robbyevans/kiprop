@@ -16,7 +16,7 @@ import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
-    name: "Website Design",
+    name: "Web Applications",
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
     stacks: [
@@ -29,7 +29,7 @@ export const projectExperience = [
     ],
   },
   {
-    name: "Mobile App Design",
+    name: "Mobile Applications",
     stacks: 63,
     icon: CiMobile1,
     bg: "#EEC048",
@@ -50,30 +50,44 @@ export const projectExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "I specialize in creating beautiful and functional websites and web applications that will make your business stand out from the crowd. Whether you're looking for a sleek and modern portfolio website, an online store to boost your sales, or a complex full-stack application, I have the skills and expertise to deliver results that exceed your expectations. Don't let your ideas remain just ideas - reach out to me today, and let's work together to turn them into reality!",
+  "I specialize in creating beautiful and functional web applications that will make your business stand out from the crowd. Whether you're looking for a sleek and modern portfolio website, an online store to boost your sales, or a complex full-stack application, I have the skills and expertise to deliver results that exceed your expectations. Don't let your ideas remain just ideas - reach out to me today, and let's work together to turn them into reality!",
 ];
 
 export const workExp = [
   {
-    place: "Freelancer, Nairobi",
-    tenure: "June 2022 - Present",
-    role: "Software Developer",
+    place: "Vinhood (Italy), Remote",
+    tenure: "January 2023 - Present",
+    role: "React,Ts Software Developer",
+    detail:
+      "Building front-end web applications with React,Typescript and storybook.",
+    Link: "Vinhood",
+    URL: "https://www.vinhood.com/",
+  },
+  {
+    place: "Upwork, Freelance",
+    tenure: "June 2022 - December 2022",
+    role: "React, Ruby on Rails Software Developer",
     detail:
       "Building front-end web applications with React and back-end server applications with Ruby on Rails.",
+    Link: "Upwork",
+    URL: "https://www.upwork.com/freelancers/~010679599acceac609",
   },
   {
     place: "Iskru Logistics",
-    tenure: "Dec 2021 - June 2022",
-    role: "React js and RoR Developer",
+    tenure: "January 2022 - April 2022",
+    role: "React, Ruby on Rails Software Developer",
     detail:
       "Building  company website and Inventory management software using React js and Ruby on Rail",
+    URL: "Iskru.Logistics",
+    Link: "",
   },
   {
     place: "Keevadis Agency",
     tenure: "Aug 2021 - Dec 2021",
     role: " Software Developer intern",
-    detail:
-      "Building Real Estate Website with ReactJs and Saas.",
+    detail: "Building Real Estate Website with HTML,CSS and Javascript.",
+    Link: "keevadis",
+    URL: "https://keevadis.pages.dev/",
   },
 ];
 
@@ -99,48 +113,6 @@ export const comments = [
       "Evans is very good at his work, he makes websites that look pretty.",
     img: "./siz02.jpg",
   },
-  // {
-  //   name: "Anamika Sandula",
-  //   post: "Creative Manager",
-  //   comment:
-  //     "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  //   img: "./people1.png",
-  // },
-  // {
-  //   name: "Anamika Sandula",
-  //   post: "Creative Manager",
-  //   comment:
-  //     "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  //   img: "./people2.png",
-  // },
-  // {
-  //   name: "Anamika Sandula",
-  //   post: "Creative Manager",
-  //   comment:
-  //     "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  //   img: "./people1.png",
-  // },
-  // {
-  //   name: "Anamika Sandula",
-  //   post: "Creative Manager",
-  //   comment:
-  //     "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  //   img: "./people2.png",
-  // },
-  // {
-  //   name: "Anamika Sandula",
-  //   post: "Creative Manager",
-  //   comment:
-  //     "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  //   img: "./people1.png",
-  // },
-  // {
-  //   name: "Anamika Sandula",
-  //   post: "Creative Manager",
-  //   comment:
-  //     "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  //   img: "./people2.png",
-  // },
 ];
 
 export const sliderSettings = {

@@ -7,6 +7,7 @@
     position: relative;
     z-index: 1;
   }
+
   .upperElement {
     @media (max-width: $sm) {
       justify-content: center;
@@ -37,6 +38,7 @@
       }
     }
     .certificate {
+      gap: 5px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -45,6 +47,9 @@
         margin-bottom: 1rem;
         width: 3.5rem;
       }
+    }
+    @media (max-width: $sm) {
+      display: none;
     }
   }
   .person {
@@ -56,6 +61,9 @@
       align-items: center;
       justify-content: center;
       background-position: bottom;
+    }
+    @media (max-width: $sm) {
+      display: none;
     }
     position: absolute;
     bottom: -2rem;
@@ -74,14 +82,19 @@
       width: 434px;
     }
   }
-  .email {
+  .github {
+    img {
+      margin-bottom: 1rem;
+      width: 3.5rem;
+    }
     @media (max-width: $sm) {
-      position: relative;
-      display: none;
+      img {
+        margin-bottom: 1rem;
+        width: 2.5rem;
+      }
     }
     position: absolute;
     top: 50%;
     left: 0%;
-    color: #ff0000;
   }
 }

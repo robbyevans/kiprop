@@ -1,10 +1,8 @@
 import React from "react";
 import { projectExperience, WhatDoIHelp } from "../../utils/data";
 import css from "./Expertise.module.scss";
-import { FaReact } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer, textVariant } from "../../utils/motion.js";
-import { SiStackshare } from "react-icons/si";
 const Experties = () => {
   return (
     <section className={css.wrapper}>
@@ -60,11 +58,11 @@ const Experties = () => {
 
           <div className={`flexCenter ${css.stats}`}>
             <div className={`flexCenter ${css.stat}`}>
-              <span className={`primaryText ${css.orange}`}>25+</span>
+              <span className={`primaryText ${css.orange}`}>35+</span>
               <span className="secondaryText">Project Completed</span>
             </div>
             <div className={`flexCenter ${css.stat}`}>
-              <span className={`primaryText ${css.orange}`}>30+</span>
+              <span className={`primaryText ${css.orange}`}>50+</span>
               <span className="secondaryText">Happy Clients</span>
             </div>
           </div>
