@@ -4,7 +4,6 @@ import css from "./Works.module.scss";
 import { motion } from "framer-motion";
 import {
   fadeIn,
-  slideIn,
   staggerChildren,
   textVariant2,
   zoomIn,
@@ -39,6 +38,9 @@ const Works = () => {
                 <div className={css.role}>
                   <h1>{exp.role}</h1>
                   <p>{exp.detail}</p>
+                  <a href={exp.URL} target="_blank" rel="noopener noreferrer">
+                    {exp.Link}
+                  </a>
                 </div>
               </motion.div>
             );

@@ -1,12 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import css from "./Projects.module.scss";
-import {
-  fadeIn,
-  staggerChildren,
-  textVariant,
-  textVariant2,
-} from "../../utils/motion";
+import { fadeIn, staggerChildren, textVariant } from "../../utils/motion";
 const Projects = () => {
   return (
     <motion.section
@@ -29,39 +24,63 @@ const Projects = () => {
               Perfect solution for digital experience
             </p>
           </div>
-          <span className="secondaryText">Explore More Works</span>
+
+          <a
+            className="secondaryText"
+            href="https://github.com/robbyevans"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Explore More Works
+          </a>
         </motion.div>
         <div className={`flexCenter ${css.showCase}`}>
-        <a href="https://local-shop.herokuapp.com/mlog-in">
-                    <motion.img variants={fadeIn("up", "tween", .9, .6)}
-                     src="./localshop.png"
-                      alt="project"
-                 
-                      />
-                 
-               </a>
+          <a
+            href="https://local-shop.herokuapp.com/mlog-in"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <motion.img
+              variants={fadeIn("up", "tween", 0.9, 0.6)}
+              src="./localshop.png"
+              alt="project"
+            />
+          </a>
 
-               <a href="https://keevadis.pages.dev/">
-                <motion.img variants={fadeIn("up", "tween", .9, .6)}
-                    
-                src="./keevadis.png"
-                alt="project"
-                 
-                />
-                 
-               </a>
+          <a
+            href="https://rickmorty.pages.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <motion.img
+              variants={fadeIn("up", "tween", 0.5, 0.6)}
+              src="./00015.jpg"
+              alt="project"
+            />
+          </a>
+          <a
+            href="https://keevadis.pages.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <motion.img
+              variants={fadeIn("up", "tween", 0.9, 0.6)}
+              src="./keevadis.png"
+              alt="project"
+            />
+          </a>
 
-            <a href="https://rickmorty.pages.dev/">
-              <motion.img variants={fadeIn("up", "tween", .5, .6)}
-               src="./00015.jpg"
-               alt="project" />
-            </a>
-
-            <a href="https://sil-gallery-app.herokuapp.com/">
-              <motion.img variants={fadeIn("up", "tween", .7, .6)}
-               src="./viewIT.png"
-                alt="project" />
-            </a>
+          <a
+            href="https://sil-gallery-app.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <motion.img
+              variants={fadeIn("up", "tween", 0.7, 0.6)}
+              src="./viewIT.png"
+              alt="project"
+            />
+          </a>
         </div>
       </div>
     </motion.section>

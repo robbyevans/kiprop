@@ -1,7 +1,7 @@
 @import "../../styles/constants.scss";
 
 .wrapper {
-  background: white;
+  // background: white;
   .container {
     gap: 2rem;
     @media (max-width: $sm) {
@@ -52,4 +52,12 @@
       }
     }
   }
+}
+.footer_end {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #ffff;
+  padding-top: 10px;
 }

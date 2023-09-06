@@ -19,7 +19,7 @@ function MenuItems() {
         <a href="#projects">Portfolio</a>
       </li>
       <li>
-        <a href="#comments">Testimonials</a>
+        <a href="#contacts">Contacts</a>
       </li>
       <Contact />
     </>
@@ -29,8 +29,9 @@ function MenuItems() {
 function Contact() {
   return (
     <li className={`flexCenter ${css.phone}`}>
-      <p>+254720563260</p>
-      <BiPhoneCall size={"40px"} />
+      <a href="#contacts">
+        <BiPhoneCall size={"40px"} />
+      </a>
     </li>
   );
 }
