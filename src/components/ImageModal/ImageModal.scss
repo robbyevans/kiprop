@@ -1,0 +1,26 @@
+/* Styles for the icon placeholder */
+.icon-placeholder {
+  width: 50px; /* You can adjust this to the desired size */
+  height: 50px;
+  cursor: pointer;
+}
+
+/* Styles for the modal overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7); /* Glossy translucent background */
+}
+
+/* Styles for the actual image in the modal */
+.modal-overlay img {
+  width: 600px !important; /* Ensures some margin around the image */
+  border: 3px solid white; /* Gives a nice border. Optional */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); /* Adds a shadow for depth. Optional */
+}
