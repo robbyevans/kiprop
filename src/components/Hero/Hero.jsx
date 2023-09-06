@@ -1,6 +1,8 @@
 import React from "react";
 import css from "./Hero.module.scss";
 import { motion } from "framer-motion";
+import CVDownload from "../CVDownload/CVDownload";
+import ImageModal from "../ImageModal/ImageModal";
 import { staggerContainer, fadeIn, slideIn } from "../../utils/motion";
 
 function Hero() {
@@ -42,6 +44,10 @@ function Hero() {
           />
         </div>
 
+        {/* download cv*/}
+
+        <CVDownload className={css.cv} />
+
         {/* github */}
         <motion.a
           variants={fadeIn("right", "tween", 0.2, 1)}
@@ -70,7 +76,16 @@ function Hero() {
             variants={fadeIn("left", "tween", 0.2, 1)}
             className={css.certificate}
           >
-            <img src="./certificate.png" alt="" />
+            <ImageModal
+              modalSrc={"./moringa_cert.png"}
+              iconSrc={"./certificate.png"}
+            />
+            {/* <img
+              src="./certificate.png"
+              alt=""
+              onClick={() => setIsModalOpen(true)}
+            /> */}
+
             <span>CERTIFIED</span>
             <span>SOFTWARE DEVELOPER</span>
           </motion.div>
