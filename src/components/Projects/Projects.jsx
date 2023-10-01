@@ -36,11 +36,36 @@ const Projects = () => {
         </motion.div>
         <div className={`flexCenter ${css.showCase}`}>
           <a
+            href="https://turfzone.vercel.app/#"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <motion.img
+              style={{ width: "500px", height: "500px" }}
+              variants={fadeIn("up", "tween", 0.9, 0.6)}
+              src="./turfZone.png"
+              alt="project"
+            />
+          </a>
+          <a
+            href="https://rickmorty.pages.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <motion.img
+              style={{ width: "500px", height: "500px" }}
+              variants={fadeIn("up", "tween", 0.5, 0.6)}
+              src="./00015.jpg"
+              alt="project"
+            />
+          </a>
+          <a
             href="https://local-shop.herokuapp.com/mlog-in"
             target="_blank"
             rel="noopener noreferrer"
           >
             <motion.img
+              style={{ width: "500px", height: "500px" }}
               variants={fadeIn("up", "tween", 0.9, 0.6)}
               src="./localshop.png"
               alt="project"
@@ -48,22 +73,12 @@ const Projects = () => {
           </a>
 
           <a
-            href="https://rickmorty.pages.dev/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <motion.img
-              variants={fadeIn("up", "tween", 0.5, 0.6)}
-              src="./00015.jpg"
-              alt="project"
-            />
-          </a>
-          <a
             href="https://keevadis.pages.dev/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <motion.img
+              style={{ width: "500px", height: "500px" }}
               variants={fadeIn("up", "tween", 0.9, 0.6)}
               src="./keevadis.png"
               alt="project"
@@ -76,6 +91,7 @@ const Projects = () => {
             rel="noopener noreferrer"
           >
             <motion.img
+              style={{ width: "500px", height: "500px" }}
               variants={fadeIn("up", "tween", 0.7, 0.6)}
               src="./viewIT.png"
               alt="project"
